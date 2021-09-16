@@ -1,0 +1,18 @@
+{
+  "score": 69,
+  "errors": [
+    "Question 11: expected type to be list, but found NoneType",
+    "Question 28: expected type to be dict, but found NoneType",
+    "Question 29: expected type to be list, but found str"
+  ],
+  "missing": [
+    2,
+    4,
+    5,
+    6,
+    15,
+    16,
+    21
+  ],
+  "summary": "Result: 22 of 32 passed, for an estimated score of 69% (prior to grader deductions)."
+}

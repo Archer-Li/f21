@@ -1,0 +1,44 @@
+question,type,value,notes
+1,type,float,: what is the type of 7/2?
+3,bool,True,": ignoring case, does word end with the suffix ""esque""?"
+7,int,14,: what is smart_count(nums)?
+8,int,6,": what is smart_count([2, 1, 11, 3, 15, -1, 8, 2])"
+9,list,"[[1, 6, {'x': 8, 'y': 5}],
+ [3, 4, {'x': 9, 'y': 2}],
+ [5, 2, {'x': 3, 'y': 1, 'z': 3.14}]]",": after inserting a ""z"" key in coord3 (with coord3[""z""] = 3.14), what is rows?"
+10,int,8,": what is the value associated with the ""x"" key of the dict in the last position of the first list?"
+11,NoneType,None,: what is rows after running the following?
+12,int,10007,": if we imagine the list of lists structure referenced by rows as a table, with column names in header, what is the sum of values in the ""B"" column?"
+13,list,"[[5, 2, {'x': 3, 'y': 1, 'z': 3.14}],
+ [1, 6, {'x': 8, 'y': 5}],
+ [3, 9999, {'x': 9, 'y': 2}]]",": what is rows after we sort it in-place by the ""B"" column, ascending?"
+14,float,337.962617039876,: say you're going on vacation to Europe with 400 US dollars; how many Euros can you get at the current exchange rate?
+17,list,"[2013, 2014, 2015, 2016, 2017, 2018]",: what are the keys in years?
+18,int,2371960,: how many households did Wisconsin have in 2018?
+19,int,10285814,: how many total households in the US are estimated to not have any computer at home? (2018)
+20,float,0.12375641594322287,": what is the biggest per-state margin of error for ""No Computer"", as a fraction of the total estimate? (2018)"
+22,Figure,plt.Figure(),": same question, but answer with a bar plot."
+23,Figure,plt.Figure(),: how as the number of WI households without computers changed over recent years?
+24,Figure,plt.Figure(),: what is the relationship between household with smartphones and those with tablets?
+25,str,'commit 4e4128313b8d5b5e5d04f2e8e585f64f7c5831a4',: what is the first line of output from git log?
+26,list,"['4e4128313b8d5b5e5d04f2e8e585f64f7c5831a4',
+ 'f637df3f45bc389e1035cc3aadcf5d81a55f0dc4',
+ 'c10b5a6cb4f06c96f6f221df2d5ec33af767d5c5',
+ 'f37e610ce055a3d894baac2d9449e6eb77c72320',
+ '6f5ca9327e986315ffcacddce5d9d6195c0913b7',
+ '761627a3ad9ee681f27211326e9149f01764ceee',
+ 'b0df6dbe111f9e28fc3a9c9b841cde5c20c365f9',
+ '6d7beafb8e79b7a92fed8e67673a33bb7f607dbe']",: What are all the commit numbers?
+27,dict,"{'4e4128313b8d5b5e5d04f2e8e585f64f7c5831a4': 43,
+ 'f637df3f45bc389e1035cc3aadcf5d81a55f0dc4': 40,
+ 'c10b5a6cb4f06c96f6f221df2d5ec33af767d5c5': 40,
+ 'f37e610ce055a3d894baac2d9449e6eb77c72320': 40,
+ '6f5ca9327e986315ffcacddce5d9d6195c0913b7': 39,
+ '761627a3ad9ee681f27211326e9149f01764ceee': 35,
+ 'b0df6dbe111f9e28fc3a9c9b841cde5c20c365f9': 35,
+ '6d7beafb8e79b7a92fed8e67673a33bb7f607dbe': 21}",: how has the length of wc.py changed over time?
+28,NoneType,None,": what does python3 cs320-p1/wc.py input.txt ALL return when input.txt contains ""A B C C""?"
+29,str,'f637df3f45bc389e1035cc3aadcf5d81a55f0dc4',: for which versions (commits) of the program does the previous command fail?
+30,Figure,plt.Figure(),": for commit 4e4128313b8d5b5e5d04f2e8e585f64f7c5831a4, what is the relationship between input size and time to run wc.py?"
+31,Figure,plt.Figure(),": for commit f37e610ce055a3d894baac2d9449e6eb77c72320, what is the relationship between input size and time to run wc.py?"
+32,Figure,plt.Figure(),": for commit 6f5ca9327e986315ffcacddce5d9d6195c0913b7, what is the relationship between input size and time to run wc.py?"
